@@ -1,0 +1,388 @@
+
+a{
+    color: #000;
+    transition: all 0.4s ease-in;
+    text-decoration: none;
+}
+
+li{
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.hdr{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #09b6b6;
+}
+    /* logo */
+ .name{
+    text-align: center;
+    padding-bottom: 10px;
+   
+    
+}
+
+.name a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.name h1{
+    font-size: 2.5rem;
+}
+
+.name span{
+    background-color: #fff;
+    padding: 2px 8px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+/* nav bar */
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    transition: all 0.3s ease-in;
+}
+
+.menu li{
+    margin: 10px 20px;
+}
+
+.menu a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0 1px;
+    color: #000;
+    
+}
+
+/* label */
+#menu{
+    display: none;
+}
+
+.hdr label{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.hdr label i{
+    font-size: 1.7rem;
+}
+
+/* breaking news */
+.breaking-news{
+    padding: 0 30px;
+    display: flex;
+    background-color: #008B88;
+    margin-top: 2px;
+    height: 30px;
+}
+
+#btext{
+    width: 200px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    margin: auto 0;
+}
+
+.brnews{
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.brnews:hover{
+    color: rgb(161, 25, 196);
+}
+
+.bntime{
+    display: inline-block;
+    color: rgb(255, 255,255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+/* main news */
+#main-news{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 5%;
+}
+
+#main-news img{
+    width: 100%;
+    filter: brightness(0.7);
+    transition: all 0.4s ease-in;
+}
+
+#first-news{
+    flex: 2;
+}
+
+.latest, .our-picks{
+    flex: 1;
+}
+
+
+#main-news h2{
+    margin: 0;
+    padding: 5px;
+}
+
+.latest h2{
+    background-color: #1b545e;
+    color: #fff;
+    text-align: center;
+}
+
+.our-picks h2{
+    background-color: #008B88;
+    color: #fff;
+    text-align: center;
+}
+
+#first-news h2{
+    background-color: #008B88;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+#main-news .news-container{
+    position: relative;
+}
+
+.latest-news-text{
+    position: absolute;
+	word-wrap: normal;
+	bottom: 5px;
+	z-index: 2;
+	color: #fff;
+	font-weight: bolder;
+	padding: 0 10px;
+	transition-duration: 500ms;
+}
+
+.news-container .latest-news-text{
+    font-size: 1rem;
+}
+
+.news-container:hover > .latest-news-text{
+    bottom: 10px;
+}
+
+#main-news section{
+    cursor: pointer;
+}
+
+/* more news */
+#more-news{
+    text-align: center;
+    background-color: #1b545e;
+    color: #fff;
+}
+.more-news{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1b545e;
+    justify-content: space-around;
+    color: #fff;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+.news-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+.news-section p{
+    font-size: 18px;
+}
+.news-section h5{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.news-section img{
+    max-width: 550px;
+    height: auto;
+}
+
+aside{
+    flex-basis: 25%;
+    padding: 10px;
+    border: 4px solid #000;
+    margin: auto 0;
+    border-radius: 5px;
+}
+
+aside img{
+    width: 80%;
+}
+.world, .sport{
+    flex-basis: 45%;
+    margin-top: 70px;
+}
+
+.recent-news{
+    display: flex;
+}
+
+.recent-news img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.recent-news p{
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+}
+
+aside section{
+    margin-top: 50px;
+}
+
+/* footer */
+    
+.ftr{
+    bottom: 0;
+    background-color: #008B88;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+.ftr i{
+    font-size: 1rem;
+    color: #000;
+    transition: all 0.3s ease-in;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+    
+.ftr i:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+    
+.ftr p{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+/* responsive */
+    @media(max-width: 1000px){
+        /* header */
+        .hdr{
+            flex-direction: column;
+        }
+        /* main news */
+        #main-news h5{
+            font-size: 0.9rem;
+        }
+
+        #main-news .latest p, 
+        #main-news .our-picks p{
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .breaking-news{
+            flex-wrap: wrap;
+            padding: 10px;
+            height: 70px;
+        }
+        
+        /* more news */
+        .news-section, aside, .world, .sport{
+            flex-basis: 100%;
+        }
+
+        .news-section img{
+            max-width: 100%;
+            height: auto;
+        }
+
+        aside{
+            margin-bottom: 10px;
+        }
+
+    }
+
+    @media(max-width: 850px){
+
+        .hdr{
+            flex-direction: column;
+        }
+
+        .hdr .menu{
+            position: absolute;
+            align-items: center;
+            background-color: #30a5a3;
+            width: 100%;
+            flex-direction: column;
+            padding: 20px 0px;
+            top: 100px;
+            /* max-height: 0; */
+            overflow: hidden;
+            transition: all 0.3s ease-in;
+            z-index: 16;
+            left: -100%;
+        }
+
+        .hdr .menu li{
+            margin: 10px 0;
+        }
+
+        .hdr label:nth-child(2){
+            display: block;
+        }
+        
+        /* mobile menu */
+     #menu:checked ~ .menu{
+        left: 0;
+        max-height: 100%;
+     }
+
+     #menu:checked ~ label:nth-child(2){
+        display: none;
+     }
+
+
+     #menu:checked ~ label:nth-child(3){
+        display: block;
+     }
+
+     #first-news{
+        flex: auto;
+     }
+
+    }
+    
